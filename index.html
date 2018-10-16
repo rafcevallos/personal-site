@@ -16,13 +16,13 @@
   <div class="navbar-fixed">
     <nav class="white z-depth-2" role="navigation">
       <div class="nav-wrapper container">
-        <a id="logo-container" href="#" class="brand-logo">Raf Cevallos</a>
+        <a id="logo-container" href="#" class="brand-logo"> Raf Cevallos </a>
         <ul class="right hide-on-med-and-down">
-          <li><a href="#">Resume</a></li>
-          <li><a href="https://github.com/rafcevallos">Github</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#">Home</a></li>
+          <li><a href="#" class="hoverable">Resume</a></li>
+          <li><a href="https://github.com/rafcevallos" class="hoverable">Github</a></li>
+          <li><a href="#projects" class="hoverable">Projects</a></li>
+          <li><a href="#skills" class="hoverable">Skills</a></li>
+          <li><a href="#" class="hoverable">Home</a></li>
         </ul>
 
         <ul id="nav-mobile" class="sidenav">
@@ -38,7 +38,7 @@
   </div>
 
   <!-- About Me Section -->
-  <div id="index-banner" class="parallax-container">
+  <!-- <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
@@ -56,6 +56,66 @@
       </div>
     </div>
     <div class="parallax"><img src="img/Me-098.JPG" width="750" height="750" alt="Neon Lights at MoMA"></div>
+  </div> -->
+  <div class="slider" height="100">
+    <ul class="slides">
+      <li>
+        <img src="img/Me.GIF"> <!-- Me -->
+        <div class="caption center-align">
+          <h3>Hi, I'm Raf!</h3>
+          <h5 class="light grey-text text-lighten-3">I'm a full-stack software developer in Nashville, TN.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="img/Art - Me-010.JPG"> <!-- random image -->
+        <div class="caption left-align">
+          <h3>I enjoy doodling.</h3>
+          <h5 class="light grey-text text-lighten-3">Drawing lines helps me relax and focus.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="img/Comics.jpg"> <!-- Omnibus -->
+        <div class="caption right-align">
+          <h3>I love comics.</h3>
+          <h5 class="light grey-text text-lighten-3">Especially collected editions in hardcover format.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="img/Concert.JPG"> <!-- Concert - David Byrne -->
+        <div class="caption center-align">
+          <h3>Seeing live music.</h3>
+          <h5 class="light grey-text text-lighten-3">That's David Byrne of Talking Heads holding a brain.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="img/Band.jpg"> <!-- Smart Objects Live -->
+        <div class="caption center-align">
+          <h3>Playing the piano and keyboards.</h3>
+          <h5 class="light grey-text text-lighten-3">I enjoy playing live with friends every now and then.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="img/Records.jpg"> <!-- Records -->
+        <div class="caption center-align">
+          <h3>Listening to vinyl by local artists.</h3>
+          <h5 class="light grey-text text-lighten-3">Yup. Only Nashville based musicians.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="img/Kayak.JPG"> <!-- Kayak -->
+        <div class="caption center-align">
+          <h3>Floating down the river.</h3>
+          <h5 class="light grey-text text-lighten-3">Disconnecting from everyday life helps me reconnect with life.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="img/Kangaroo.JPG"> <!-- Kayak -->
+        <div class="caption center-align">
+          <h3>Animals</h3>
+          <h5 class="light grey-text text-lighten-3">Close encounters of the furry kind.</h5>
+        </div>
+      </li>
+    </ul>
   </div>
 
 
@@ -101,7 +161,6 @@
           </div>
         </div>
       </div>
-
     </div>
   </div>
 
@@ -118,14 +177,11 @@
   </div>
 
   <!-- SKILLS SECTION -->
-  <div class="container" id="skills">
-    <div class="section">
-
+  <div class="container">
+    <div class="section" id="skills">
       <div class="row">
-        <div class="col s12 center">
-          <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4>Skills</h4>
-        </div>
+        <h3 class="header center col s12"> Skills </h3>
+
 
         <div class="col s2">
           <svg viewBox="0 0 128 128">
@@ -265,8 +321,8 @@
   <div class="section">
     <div class="row">
       <h3 class="header center col s12"> Social </h3>
+      <!-- InstaWidget -->
       <div class="col center s12 m4">
-        <!-- InstaWidget -->
         <a href="https://instawidget.net/v/user/velocirafftor" id="link-ab2e13194381b8effad955597b0d353ba97c44bfebc40e46eb2639bc836438f9">@velocirafftor</a>
         <script src="https://instawidget.net/js/instawidget.js?u=ab2e13194381b8effad955597b0d353ba97c44bfebc40e46eb2639bc836438f9&width=300px"></script>
       </div>
@@ -444,23 +500,70 @@
     </div>
   </div>
 
+  <!-- <div class="container">
+    <div class="section">
+      <div class="row">
+        <div class="carousel">
+          <a class="carousel-item" href="#one!"><img class="responsive-img hoverable" src="img/Australia-105.JPG"></a>
+          <a class="carousel-item" href="#two!"><img class="responsive-img materialboxed hoverable circle" width="650" src="img/Me-045.JPG"></a>
+          <a class="carousel-item" href="#three!"><img class="responsive-img" src="img/Australia-274.JPG"></a>
+          <a class="carousel-item" href="#four!"><img class="responsive-img" src="img/Me-157.JPG"></a>
+          <a class="carousel-item" href="#five!"><img class="responsive-img" src="img/Australia-267.JPG"></a>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+  <div class="slider">
+    <ul class="slides">
+      <li>
+        <img src="img/Me-045.JPG"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>This is our big Tagline!</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="img/Tasmania-025.JPG"> <!-- random image -->
+        <div class="caption left-align">
+          <h3>Left Aligned Caption</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="img/Australia-008.JPG"> <!-- random image -->
+        <div class="caption right-align">
+          <h3>Right Aligned Caption</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="img/Australia-110.JPG"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>This is our big Tagline!</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+    </ul>
+  </div>
+
   <footer class="page-footer teal">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
+          <h5 class="white-text center">Company Bio</h5>
           <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our
             full time job. Any amount would help support and continue development on this project and is greatly
             appreciated.</p>
         </div>
 
-        <div class="col l6 s12">
-          <h5 class="white-text">Connect</h5>
+        <div class="col l6 s12 center">
+          <h5 class="white-text">Connect With Me!</h5>
           <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
+            <li><a class="white-text" href="https://www.linkedin.com/in/rafcevallos/">LinkedIn</a></li>
+            <li><a class="white-text" href="https://github.com/rafcevallos">GitHub</a></li>
+            <li><a class="white-text" href="https://www.twitter.com/rafcevallos">Twitter</a></li>
+            <li><a class="white-text" href="https://www.instagram.com/velocirafftor">Instagram</a></li>
           </ul>
         </div>
       </div>

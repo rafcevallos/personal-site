@@ -3,10 +3,11 @@
 
     $('.sidenav').sidenav();
     $('.parallax').parallax();
-    $('.carousel.carousel-slider').carousel({
+    $('.carousel').carousel({
       fullWidth: true
     });
     $('.materialboxed').materialbox();
+    $('.slider').slider();
 
   }); // end of document ready
 
