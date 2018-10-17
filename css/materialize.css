@@ -8339,7 +8339,7 @@ input[type=range]::-ms-thumb {
 }
 
 .slider .slides li img {
-  max-height: auto;
+  height: auto;
   width: 100%;
   background-size: cover;
   background-position: center;
