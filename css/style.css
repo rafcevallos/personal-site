@@ -6,6 +6,11 @@
  * Made By MaterializeCSS.com
  */
 
+body {
+  background-color: #ffffff;
+  background-image: url("https://www.transparenttextures.com/patterns/dark-stripes-light.png");
+}
+
 nav ul a,
 nav .brand-logo {
   color: #444;
