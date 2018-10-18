@@ -6,9 +6,10 @@
     $('.carousel').carousel({
       fullWidth: true
     });
-    $('.materialboxed').materialbox();
-    $('.slider').slider();
-
+    $('.slider').slider({
+      height: 475,
+      interval: 12000,
+    });
   }); // end of document ready
 
 })(jQuery); // end of jQuery name space
