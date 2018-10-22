@@ -16,6 +16,17 @@ nav .brand-logo {
   color: #444;
 }
 
+.logo {
+  display: inline-block;
+  height: 100%;
+}
+
+.logo>img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 p {
   line-height: 2rem;
 }
