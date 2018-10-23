@@ -16,6 +16,15 @@ nav .brand-logo {
   color: #444;
 }
 
+.background {
+  margin: 30px;
+  background-color: #20202081;
+  opacity: 0.3;
+  filter: alpha(opacity=60);
+  border-radius: 12px; 
+  padding: 10px;/* For IE8 and earlier */
+}
+
 .logo {
   display: inline-block;
   height: 100%;
