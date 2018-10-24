@@ -18,11 +18,10 @@ nav .brand-logo {
 
 .background {
   margin: 30px;
-  background-color: #20202081;
+  background-color: #222222d5;
   opacity: 0.3;
   filter: alpha(opacity=60);
-  border-radius: 12px; 
-  padding: 10px;/* For IE8 and earlier */
+  border-radius: 12px;
 }
 
 .logo {
