@@ -53,6 +53,10 @@ p {
     width: 100%;
   }
 
+.mobile-about-me {
+  display: none;
+}
+
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
@@ -67,6 +71,9 @@ p {
   img#octo-raf {
     display: none;
   }
+  .mobile-about-me {
+    color: black;
+  }
 }
 
 @media only screen and (max-width : 600px) {
@@ -78,6 +85,9 @@ p {
   }
   img#octo-raf {
     display: none;
+  }
+  .mobile-about-me {
+    color: black;
   }
 }
 
