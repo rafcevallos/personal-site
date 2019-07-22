@@ -72,7 +72,8 @@ p {
     display: block;
   }
   .mobile-about {
-    padding: .5em;
+    padding: 1em;
+    text-align: justify;
   }
   img#octo-raf {
     display: none;
