@@ -64,6 +64,9 @@ p {
   #slide-desktop {
     display: none;
   }
+  #octo-raf {
+    display: none;
+  }
 }
 
 @media only screen and (max-width : 600px) {
@@ -71,6 +74,9 @@ p {
     top: 0;
   }
   #slide-desktop {
+    display: none;
+  }
+  #octo-raf {
     display: none;
   }
 }
