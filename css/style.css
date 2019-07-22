@@ -71,9 +71,6 @@ p {
   img#octo-raf {
     display: none;
   }
-  .mobile-about-me {
-    color: black;
-  }
 }
 
 @media only screen and (max-width : 600px) {
@@ -85,9 +82,6 @@ p {
   }
   img#octo-raf {
     display: none;
-  }
-  .mobile-about-me {
-    color: black;
   }
 }
 
