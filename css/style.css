@@ -70,6 +70,8 @@ p {
   }
   #mobile-about-me {
     display: block;
+  }
+  .mobile-about {
     padding: .5em;
   }
   img#octo-raf {
