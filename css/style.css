@@ -53,10 +53,6 @@ p {
     width: 100%;
   }
 
-.mobile-about-me {
-  display: none;
-}
-
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
@@ -67,6 +63,9 @@ p {
   }
   #slide-desktop {
     display: none;
+  }
+  #mobile-about-me {
+    display: block;
   }
   img#octo-raf {
     display: none;
