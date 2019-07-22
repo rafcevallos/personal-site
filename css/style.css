@@ -71,7 +71,7 @@ p {
   #mobile-about-me {
     display: block;
   }
-  img#octo-raf {
+  #slide-desktop .slider .slides .li #octo-raf {
     display: none;
   }
 }
@@ -83,7 +83,7 @@ p {
   #slide-desktop {
     display: none;
   }
-  img#octo-raf {
+  #slide-desktop .slider .slides .li #octo-raf {
     display: none;
   }
 }
