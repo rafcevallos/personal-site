@@ -71,7 +71,7 @@ p {
   #mobile-about-me {
     display: block;
   }
-  h5 .mobile-about {
+  .mobile-about {
     padding: 1em;
     text-align: justify;
   }
@@ -86,6 +86,10 @@ p {
   }
   #slide-desktop {
     display: none;
+  }
+  .mobile-about {
+    padding: 1em;
+    text-align: justify;
   }
   img#octo-raf {
     display: none;
