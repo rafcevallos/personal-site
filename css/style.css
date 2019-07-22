@@ -71,7 +71,7 @@ p {
   #mobile-about-me {
     display: block;
   }
-  .mobile-about {
+  h5 .mobile-about {
     padding: 1em;
     text-align: justify;
   }
